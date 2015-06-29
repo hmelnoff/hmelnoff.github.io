@@ -8,12 +8,10 @@ $(document).ready(function () {
 
 	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
 	$(".top_text p, .section_header").animated("fadeInUp", "fadeOutDown");
-	$(".animation_1").animated("flipInY", "flipOutY");
-	$(".animation_2").animated("fadeInLeft", "fadeOutRight");
-	$(".animation_3").animated("fadeInRight", "fadeOutLeft");
+	$(".animation_1").animated("fadeInUp", "fadeOutDown");
+	$(".animation_2, .animation_3").animated("fadeInUp", "fadeOutDown");
 	$(".left .resume_item").animated("fadeInLeft", "fadeOutRight");
 	$(".right .resume_item").animated("fadeInRight", "fadeOutLeft");
-	$(".s_content").animated("fadeIn","fadeOut");
 
 	function heightDetect() {
 	$(".main_head").css("height", $(window).height());
