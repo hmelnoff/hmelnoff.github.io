@@ -7,11 +7,11 @@ $(document).ready(function () {
 
 
 	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
-	$(".top_text p, .section_header").animated("fadeInUp", "fadeOutDown");
-	$(".animation_1").animated("fadeInUp", "fadeOutDown");
-	$(".animation_2, .animation_3").animated("fadeInUp", "fadeOutDown");
-	$(".left .resume_item").animated("fadeInUp", "fadeOutDown");
-	$(".right .resume_item").animated("fadeInUp", "fadeOutDown");
+	$(".top_text p, .section_header").animated("fadeInUp", "fadeOut");
+	$(".animation_1").animated("fadeInUp", "fadeOut");
+	$(".animation_2, .animation_3").animated("fadeInUp", "fadeOut");
+	$(".left .resume_item").animated("fadeInUp", "fadeOut");
+	$(".right .resume_item").animated("fadeInUp", "fadeOut");
 
 	function heightDetect() {
 	$(".main_head").css("height", $(window).height());
@@ -62,7 +62,7 @@ $(document).ready(function () {
 	$(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
 	
 });
-$(window).load(function() {
-	$(".loader_inner").fadeOut();
-	$(".loader").delay(400).fadeOut("slow");
-});
+//$(window).load(function() {
+//	$(".loader_inner").fadeOut();
+//	$(".loader").delay(400).fadeOut("slow");
+//});
