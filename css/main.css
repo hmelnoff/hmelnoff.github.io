@@ -291,7 +291,7 @@ section {
 .social_wrap li {
   display: inline-block;
   font-size: 20px;
-  padding: 0 3px; }
+  padding: 0 5px; }
 
 .resume_container .left {
   text-align: right;
@@ -336,7 +336,7 @@ section {
   text-align: center; }
 .s_portfolio li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 16px;
   text-transform: uppercase;
   font-size: 12px;
   cursor: pointer;
