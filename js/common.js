@@ -6,8 +6,8 @@ $(document).ready(function () {
 	$(".popup_content").magnificPopup({type:"inline", closeBtnInside: true, showCloseBtn: true});
 
 
-	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
-	$(".top_text p, .section_header").animated("fadeInUp", "fadeOut");
+//	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
+//	$(".top_text p, .section_header").animated("fadeInUp", "fadeOut");
 	$(".animation_1").animated("fadeInUp", "fadeOut");
 	$(".animation_2, .animation_3").animated("fadeInUp", "fadeOut");
 	$(".left .resume_item").animated("fadeInUp", "fadeOut");

@@ -17,7 +17,13 @@
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/skins/blue.css" />
 	<link rel="stylesheet" href="css/media.css" />
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="libs/parallax/parallax.min.js"></script>
+	<script>
+		$(document).ready(function () {
+		$('header').parallax({imageSrc: "img/bg.jpg"});
+		});
+	</script>
 </head>
 
 <body>
@@ -26,7 +32,7 @@
 		<div class="loader_inner"></div>
 	</div>
 -->
-<header class="main_head main_color_bg" data-parallax="scroll" data-image-src="img/bg.jpg">
+<header class="main_head main_color_bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -339,9 +345,9 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
 	<script src="libs/animate/animate-css.js"></script>
-	<script src="libs/parallax/parallax.min.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
 	<script src="libs/mixitup/mixitup.min.js"></script>
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
