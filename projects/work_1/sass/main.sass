@@ -1,0 +1,110 @@
+@import "bourbon/bourbon"
+
+html.js .loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+body
+	font-family: "AvenirNext", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialised
+	overflow-x: hidden
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+
+.head
+	min-height: 130px
+	.load
+		height: 4px
+		background-color: #432578
+	.menu
+		padding: 20px 0px
+		img
+			display: inline-block
+			margin-right: 60px
+		.nav
+			list-style-type: none
+			display: inline-block
+			li
+				display: inline-block
+				font-size: 16px
+				text-transform: uppercase
+				font-family: "AvenirNextBold", serif
+				margin-right: 35px
+				a
+					text-decoration: none
+					color: #5c5c5c
+					&:hover
+						color: #e77919
+		.social
+			list-style-type: none
+			display: inline-block
+			padding: 0
+			margin: 0
+			li
+				display: inline-block
+				font-size: 22px
+				margin-right: 10px
+				&:last-child
+					margin-right: 20px
+				a
+					color: #c8c8c8
+					&:hover
+						color: #5c5c5c
+		.phone
+			display: inline-block
+			width: 210px
+			vertical-align: middle
+			.phn
+				display: inline-block
+				float: left
+				padding: 5px
+				border: 1px solid #e77919
+				border-radius: 50%
+				margin-right: 10px
+			span
+				display: block
+				font-size: 16px
+				text-transform: uppercase
+				font-family: "AvenirNextBold", serif
+				line-height: 18px
+			.telephone
+				font-size: 22px
+				color: #e77919
+				font-family: "AvenirNextBolder", sans-serif
+.main-bg
+	height: 750px
+	background: url(../img/bg.jpg) no-repeat center center
+	background-size: cover
