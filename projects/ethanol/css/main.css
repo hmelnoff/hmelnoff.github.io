@@ -478,7 +478,8 @@ section {
         padding: 10px 0; }
       .process .process_wrp .process_item_wrp .process_item p {
         margin: 0;
-        font-size: 14px; }
+        font-size: 14px;
+        overflow: hidden; }
 
 footer {
   padding: 50px 0;
