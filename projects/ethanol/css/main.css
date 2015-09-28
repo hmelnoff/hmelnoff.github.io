@@ -481,6 +481,83 @@ section {
         font-size: 14px;
         overflow: hidden; }
 
+.pricing .pricing_wrp {
+  text-align: center; }
+.pricing .pricingtable {
+  display: inline-block;
+  background-color: #fff;
+  box-sizing: content-box;
+  width: 300px;
+  height: 500px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  overflow: hidden; }
+  .pricing .pricingtable:first-child {
+    box-shadow: inset -20px 10px 25px -5px rgba(0, 0, 0, 0.5); }
+  .pricing .pricingtable:last-child {
+    box-shadow: inset 20px 10px 25px -5px rgba(0, 0, 0, 0.5); }
+  .pricing .pricingtable.gold {
+    border-color: #ffcc33;
+    transform: scale(1.1, 1.1);
+    width: 250px; }
+    .pricing .pricingtable.gold .top {
+      background-color: #ffcc33; }
+    .pricing .pricingtable.gold .features hr {
+      background-color: #ffcc33; }
+    .pricing .pricingtable.gold .features a {
+      background-color: #ffcc33; }
+  .pricing .pricingtable .top {
+    width: 100%;
+    height: 90px;
+    background-color: #333; }
+    .pricing .pricingtable .top h3 {
+      margin: 0;
+      font-family: "LatoBold", sans-serif;
+      font-size: 22px;
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center;
+      line-height: 90px; }
+  .pricing .pricingtable .features {
+    text-align: center; }
+    .pricing .pricingtable .features h4 {
+      font-family: "LatoLight", sans-serif;
+      font-size: 64px;
+      color: #666;
+      margin: 20px 0; }
+      .pricing .pricingtable .features h4 sup {
+        font-size: 40px; }
+      .pricing .pricingtable .features h4 sub {
+        font-size: 26px; }
+    .pricing .pricingtable .features hr {
+      background-color: #666;
+      height: 1px; }
+    .pricing .pricingtable .features ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px; }
+      .pricing .pricingtable .features ul li {
+        font-family: "LatoLight", sans-serif;
+        padding: 5px; }
+    .pricing .pricingtable .features a {
+      margin: 0 auto;
+      width: 80%;
+      height: 50px;
+      display: block;
+      background-color: #333;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 11px; }
+    .pricing .pricingtable .features p {
+      text-transform: uppercase;
+      color: #666;
+      font-size: 11px; }
+
 footer {
   padding: 50px 0;
   background-color: #ffcc33;
