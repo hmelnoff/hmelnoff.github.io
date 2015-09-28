@@ -531,6 +531,8 @@ section {
         font-size: 26px; }
     .pricing .pricingtable .features hr {
       background-color: #666;
+      color: #666;
+      border: none;
       height: 1px; }
     .pricing .pricingtable .features ul {
       list-style-type: none;
