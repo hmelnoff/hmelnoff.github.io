@@ -1,0 +1,489 @@
+@import "bourbon/bourbon"
+
+html.js .loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+body
+	font-family: "LatoRregular", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	-webkit-font-smoothing: antialised
+	overflow-x: hidden
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+header
+	padding: 35px 0
+.logo
+	font-family: "CenturyGothicRegular", sans-serif
+	font-size: 35px
+	color: #666666
+.nav
+	list-style-type: none
+	padding: 0
+	margin: 0
+	float: right
+	li
+		display: inline-block
+		padding: 10px 0
+		margin-left: 35px
+		border-bottom: 5px solid transparent
+		&:hover
+			border-bottom: 5px solid #ffca26
+			transition: border-bottom 0.5s ease
+		a
+			color: #333333
+			text-transform: uppercase
+			font-family: "LatoBold", sans-serif
+			&:hover, &:focus
+				text-decoration: none
+.jumbotron
+	background: url("../img/main.jpg") center center no-repeat
+	background-size: cover
+	height: 790px
+	.main
+		position: relative
+		top: 260px
+		text-align: center
+		h1
+			font-family: "LatoBold", sans-serif
+			font-weight: bold
+			font-size: 40px
+			text-transform: uppercase
+			color: #ffcc33
+			margin: 0
+			padding: 0
+			margin-bottom: 40px
+		p
+			font-family: "LatoRegular", sans-serif
+			font-size: 22px
+			color: #fff
+			margin-bottom: 135px
+		a
+			font-size: 22px
+			text-transform: uppercase
+			color: #fff
+			padding: 25px 25px
+			background-color: rgba(0,0,0,0.2)
+			&:hover, &:focus
+				text-decoration: none
+				border-bottom: 5px solid #ffcc33
+				background-color: rgba(0,0,0,0.6)
+				transition: background-color 0.5s ease
+.blok
+	padding: 100px 20px 140px
+	background-color: #ffcc33
+	text-align: center
+	.logo
+		color: #fff
+		margin-bottom: 	55px
+	p
+		font-size: 22px
+		color: #fff
+		max-width: 700px
+		margin: 0 auto
+section
+	padding: 155px 0 25px
+	h2
+		font-family: "LatoLight", sans-serif
+		font-size: 30px
+		text-transform: uppercase
+		text-align: center
+		margin: 0
+		padding: 0
+		color: #333
+		span
+			font-family: "LatoBold", sans-serif
+			color: #ffcc33
+	.small
+		font-family: "LatoItalic", sans-serif
+		font-size: 22px
+		text-align: center
+		margin: 0
+		color: #999
+		margin-bottom: 35px
+	.img
+		position: relative
+		z-index: 1
+		overflow: hidden
+		text-align: center
+		margin-bottom: 90px
+		&:before, &:after
+			content: ""
+			display: inline-block
+			width: 40%
+			height: 1px
+			background: #999
+			z-index: -1
+			position: relative
+			vertical-align: middle
+		&:before
+			right: 20px
+			margin: 0 0 0 -100%
+		&:after
+			left: 20px
+			margin: 0 -100% 0 0
+.fokus
+	.focus
+		.focus-item
+			text-align: right
+			color: #999
+			padding: 10px
+			margin-bottom: 20px
+			.icon_wrap
+				margin: 0 0 0 20px
+				width: 110px
+				height: 110px
+				background-color: #ffcc33
+				color: #fff
+				text-align: center
+				border-radius: 5px 50% 50% 50%
+				float: right
+				i
+					line-height: 110px
+					font-size: 60px
+			h3
+				font-size: 20px
+				margin: 0
+				margin-bottom: 10px
+			p
+				font-size: 16px
+				margin: 0
+		.right
+			.focus-item
+				text-align: left
+				.icon_wrap
+					float: left
+					margin: 0 20px 0 0
+.about
+	.about_wrp
+		background-color: #f3f3f3
+		.about_img
+			position: relative
+			height: 500px
+			background: url(../img/about.jpg)
+			ul
+				padding: 0
+				margin: 0
+				list-style-type: none
+				position: absolute
+				bottom: 0
+				left: 10%
+				li
+					display: inline-block
+					a
+						display: block
+						font-size: 40px
+						background-color: #ffcc33
+						width: 65px
+						height: 65px
+						text-align: center
+						line-height: 65px
+						color: #fff
+	.about_text
+		font-size: 29px
+		font-family: "LatoLight", sans-serif
+		text-align: center
+		padding: 40px 20px
+		span
+			text-transform: capitalize
+			font-family: "LatoRegular", sans-serif
+			font-size: 37px
+	.about_descr
+		padding: 60px
+		h3
+			font-size: 24px
+			margin: 0
+			margin-bottom: 40px
+			color: #333
+		p
+			color: #999
+			font-size: 14px
+			margin: 0
+			margin-bottom: 90px
+		h4
+			margin: 0
+			color: #999
+			margin-bottom: 5px
+			font-family: "LatoLight", sans-serif
+		progress
+			width: 100%
+			background-color: #333
+			margin-bottom: 10px
+			//&::-webkit-progress-bar
+			&::-webkit-progress-value
+				background: #ffcc33
+			&::-moz-progress-bar
+				background: #ffcc33
+	.about_icons
+		border-top: 1px solid #d2d2d2
+		border-bottom: 1px solid #d2d2d2
+		text-align: center
+		ul
+			list-style-type: none
+			margin: 0
+			li
+				display: inline-block
+				width: 20%
+				padding: 30px
+				border-left: 1px solid #d2d2d2
+				&:last-child
+					border-right: 1px solid #d2d2d2
+				i
+					font-size: 70px
+					color: #ffcc33
+					margin-bottom: 20px
+				.index
+					font-size: 26px
+					font-family: "LatoBold", sans-serif
+					margin: 0
+				.descr
+					font-family: "LatoItalic", sans-serif
+					font-size: 16px
+					color: #999
+					margin: 0
+.team
+	.team_item
+		.team_img_wrp
+			text-align: center
+			position: relative
+			height: auto
+			margin-bottom: 30px
+			&:hover p
+				display: block
+				transition: display 0.5s ease
+			img
+				width: 100%
+				height: auto
+				padding-bottom: 15px
+			p
+				display: none
+				width: 100%
+				position: absolute
+				bottom: 0
+				padding: 25px
+				background-color: rgba(0,0,0,0.8)
+				color: #fff
+				margin: 0
+		h4
+			font-size: 30px
+			text-align: center
+			margin: 0
+			margin-bottom: 10px
+			font-family: "LatoLight", sans-serif
+		p.descr
+			font-size: 14px
+			font-family: "LatoLight", sans-serif
+			text-align: center
+			color: #999
+			text-transform: uppercase
+			margin: 0
+			margin-bottom: 20px
+		ul
+			list-style-type: none
+			padding: 0
+			margin: 0
+			text-align: center
+			li
+				display: inline-block
+				a
+					display: block
+					width: 38px
+					height: 38px
+					text-align: center
+					background-color: #ffcc33
+					line-height: 38px
+					color: #fff
+					font-size: 24px
+	.team_wrapper
+		width: 100%
+		height: 650px
+		position: relative
+		& > input
+			display: none
+		.controls
+			left: 50%
+			position: absolute
+			margin-left: -20px
+		label
+			position: relative
+			cursor: pointer
+			display: inline-block
+			height: 15px
+			width: 15px
+			background-color: #d2d2d2
+			border-radius: 50%
+			&:hover
+				background-color: #999
+		#slide1:checked ~ .controls label:nth-of-type(1),
+		#slide2:checked ~ .controls label:nth-of-type(2),
+		#slide3:checked ~ .controls label:nth-of-type(3)
+			background-color: #999
+	.slider
+		height: inherit
+		overflow: hidden
+		position: relative
+		width: inherit
+		.slides
+			height: inherit
+			opacity: 0
+			position: absolute
+			width: inherit
+			z-index: 0
+			transform: scale(1.5)
+			transition: all ease-in-out 0.5s
+	#slide1:checked ~ .slider > .slide1,
+	#slide2:checked ~ .slider > .slide2,
+	#slide3:checked ~ .slider > .slide3
+		opacity: 1
+		z-index: 1
+		transform: scale(1)
+.feature
+	.feature_wrp
+		padding: 100px 0 160px
+		background-color: #f3f3f3
+		input
+			display: none
+		label
+			display: block
+			background-color: #fff
+			padding: 20px
+			margin-bottom: 20px
+			border-radius: 5px
+			box-shadow: 0 5px 0 #ccc
+			color: #333
+			i
+				float: left
+				font-size: 40px
+				margin-right: 20px
+				width: 40px
+			p.btn
+				text-transform: uppercase
+				font-size: 14px
+				padding: 0
+				margin: 0
+				font-family: "LatoBold", sans-serif
+			p.sub
+				padding: 0
+				margin: 0
+				font-family: "LatoItalic", sans-serif
+		#feat1:checked ~ .controls label:nth-of-type(1),
+		#feat2:checked ~ .controls label:nth-of-type(2),
+		#feat3:checked ~ .controls label:nth-of-type(3),
+		#feat4:checked ~ .controls label:nth-of-type(4),
+		#feat5:checked ~ .controls label:nth-of-type(5)
+			background-color: #ffcc33
+			color: #fff
+			box-shadow: 0 5px 0 #996600
+		#feat1:checked ~ .slider_wrp > .slide1,
+		#feat2:checked ~ .slider_wrp > .slide2,
+		#feat3:checked ~ .slider_wrp > .slide3,
+		#feat4:checked ~ .slider_wrp > .slide4,
+		#feat5:checked ~ .slider_wrp > .slide5
+			opacity: 1
+			z-index: 1
+		.slides
+			padding: 0 20px
+			margin-left: 40px
+			height: inherit
+			opacity: 0
+			position: absolute
+			width: inherit
+			z-index: 0
+			transition: opacity ease-in-out 0.5s
+			h4
+				padding: 0
+				margin: 0
+				font-family: "LatoBold", sans-serif
+				font-size: 24px
+				color: #333
+				text-transform: uppercase
+				margin-bottom: 35px
+			p
+				font-size: 16px
+				color: #999
+				margin: 0
+				margin-bottom: 70px
+			img
+				width: 100%
+				height: auto
+.process
+	.process_wrp
+		background-color: #f3f3f3
+		.line_wrp
+			position: relative
+		.line
+			position: absolute
+			height: 100%
+			width: 5px
+			background-color: #fff
+			left: 22%
+			z-index: 1
+		.process_item_wrp
+			position: relative
+			padding: 120px 0
+			z-index: 10
+			.process_item
+				padding: 0 15%
+				i
+					padding: 30px
+					background-color: #ffcc33
+					color: #fff
+					font-size: 55px
+					border-radius: 5px 50% 50% 50%
+					border: 5px solid #fff
+					float: left
+footer
+	padding: 50px 0
+	background-color: #ffcc33
+	color: #fff
+	p
+		font-size: 16px
+		font-family: "LatoBold", sans-serif
+		margin: 0
+		padding: 0
+		padding-bottom: 30px
+	ul
+		list-style-type: none
+		padding: 0
+		margin: 0
+		text-align: right
+		li
+			display: inline-block
+			a
+				display: block
+				color: #fff
+				font-size: 25px
+				margin-left: 20px
+				&:hover
+					color: #333
