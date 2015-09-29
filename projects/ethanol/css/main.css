@@ -52,7 +52,7 @@ header {
 
 .nav {
   list-style-type: none;
-  padding: 0;
+  padding: 0 10px;
   margin: 0;
   float: right; }
   .nav li {
@@ -63,6 +63,8 @@ header {
     .nav li:hover {
       border-bottom: 5px solid #ffca26;
       transition: border-bottom 0.5s ease; }
+    .nav li:first-child {
+      margin-left: 0; }
     .nav li a {
       color: #333333;
       text-transform: uppercase;
@@ -182,7 +184,8 @@ section {
     margin-bottom: 10px; }
   .fokus .focus .focus-item p {
     font-size: 16px;
-    margin: 0; }
+    margin: 0;
+    overflow: hidden; }
 .fokus .focus .right .focus-item {
   text-align: left; }
   .fokus .focus .right .focus-item .icon_wrap {
@@ -194,7 +197,8 @@ section {
   .about .about_wrp .about_img {
     position: relative;
     height: 500px;
-    background: url(../img/about.jpg); }
+    background: url(../img/about.jpg);
+    background-size: cover; }
     .about .about_wrp .about_img ul {
       padding: 0;
       margin: 0;
@@ -254,12 +258,14 @@ section {
   text-align: center; }
   .about .about_icons ul {
     list-style-type: none;
-    margin: 0; }
+    margin: 0;
+    padding: 0; }
     .about .about_icons ul li {
       display: inline-block;
       width: 20%;
       padding: 30px;
-      border-left: 1px solid #d2d2d2; }
+      border-left: 1px solid #d2d2d2;
+      vertical-align: middle; }
       .about .about_icons ul li:last-child {
         border-right: 1px solid #d2d2d2; }
       .about .about_icons ul li i {
@@ -371,6 +377,8 @@ section {
   z-index: 1;
   transform: scale(1); }
 
+.feature .slider_wrp {
+  height: 500px; }
 .feature .feature_wrp {
   padding: 100px 0 160px;
   background-color: #f3f3f3; }
@@ -390,6 +398,8 @@ section {
       font-size: 40px;
       margin-right: 20px;
       width: 40px; }
+    .feature .feature_wrp label p {
+      overflow: hidden; }
     .feature .feature_wrp label p.btn {
       text-transform: uppercase;
       font-size: 14px;

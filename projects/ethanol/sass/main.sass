@@ -50,7 +50,7 @@ header
 	color: #666666
 .nav
 	list-style-type: none
-	padding: 0
+	padding: 0 10px
 	margin: 0
 	float: right
 	li
@@ -61,6 +61,8 @@ header
 		&:hover
 			border-bottom: 5px solid #ffca26
 			transition: border-bottom 0.5s ease
+		&:first-child
+			margin-left: 0
 		a
 			color: #333333
 			text-transform: uppercase
@@ -179,6 +181,7 @@ section
 			p
 				font-size: 16px
 				margin: 0
+				overflow: hidden
 		.right
 			.focus-item
 				text-align: left
@@ -192,6 +195,7 @@ section
 			position: relative
 			height: 500px
 			background: url(../img/about.jpg)
+			background-size: cover
 			ul
 				padding: 0
 				margin: 0
@@ -253,11 +257,13 @@ section
 		ul
 			list-style-type: none
 			margin: 0
+			padding: 0
 			li
 				display: inline-block
 				width: 20%
 				padding: 30px
 				border-left: 1px solid #d2d2d2
+				vertical-align: middle
 				&:last-child
 					border-right: 1px solid #d2d2d2
 				i
@@ -370,6 +376,8 @@ section
 		z-index: 1
 		transform: scale(1)
 .feature
+	.slider_wrp
+		height: 500px
 	.feature_wrp
 		padding: 100px 0 160px
 		background-color: #f3f3f3
@@ -389,6 +397,8 @@ section
 				font-size: 40px
 				margin-right: 20px
 				width: 40px
+			p
+				overflow: hidden
 			p.btn
 				text-transform: uppercase
 				font-size: 14px

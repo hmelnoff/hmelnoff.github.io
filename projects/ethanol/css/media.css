@@ -7,12 +7,88 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	header {
+		text-align: center;
+		padding: 15px 0;
+	}
+	header .nav {
+		float: none;
+	}
+	.jumbotron {
+		height: 600px;
+	}
+	.jumbotron .main {
+		top: 180px;
+	}
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	section {
+		padding: 60px 10px;
+	}
+	section h2 {
+		font-size: 26px;
+	}
+	section .small{
+		font-size: 18px;
+	}
+	section .img {
+		margin-bottom: 15px;
+	}
+	.blok {
+		padding: 40px 10px;
+	}
+	.about .about_wrp .about_img {
+		height: 300px;
+	}
+	.about .about_wrp .about_text {
+		font-size: 24px;
+		padding: 20px 10px;
+	}
+	.about .about_wrp .about_text span{
+		font-size: 32px;
+	}
+	.about .about_wrp .about_descr {
+		text-align: center;
+		padding: 20px 10px;
+	}
+	.about .about_icons ul li {
+		width: 20%;
+		padding: 10px;
+	}
+	.about .about_icons ul li i{
+		font-size: 46px;
+	}
+	.about .about_icons ul li .index{
+		font-size: 18px;
+	}
+	.about .about_icons ul li .descr{
+		font-size: 14px;
+	}
+	.team .team_wrapper {
+		height: 440px;
+	}
+	.team .team_item .team_img_wrp {
+		margin-bottom: 10px;
+	}
+	.team .team_item .team_img_wrp p{
+		padding: 10px;
+		font-size: 12px;
+	}
+	.team .team_item h4 {
+		font-size: 24px;
+		line-height: 1em;
+	}
+	.team .team_item ul li a {
+		font-size: 18px;
+	}
+	.feature .feature_wrp label p.sub {
+		text-align: right;
+	}
+	.feature .slider_wrp {
+		text-align: center;
+		height: 480px;
+	}
 	/*Disable Animation on Mobile Devices*/
 	.animated {
 		/*CSS transitions*/
@@ -39,7 +115,41 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.jumbotron {
+		height: 400px;
+	}
+	.jumbotron .main {
+		top: 60px;
+	}
+	.jumbotron .main h1 {
+		font-size: 28px;
+	}
+	.jumbotron .main p {
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+	.jumbotron .main a {
+		font-size: 18px;
+	}
+	.about .about_icons ul li i{
+		font-size: 40px;
+	}
+	.about .about_icons ul li .index{
+		font-size: 16px;
+	}
+	.about .about_icons ul li .descr{
+		font-size: 12px;
+	}
+	.work #mixworks .mix .item_wrp {
+		padding: 5%;
+	}
+	.work #mixworks .mix .item_wrp ul{
+		margin-bottom: 5px;
+	}
+	.work #mixworks .mix .item_wrp h4{
+		font-size: 10px;
+		line-height: 1em;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -62,12 +172,16 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+.team .team_wrapper {
+		height: 600px;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+.team .team_wrapper {
+		height: 740px;
+	}
 }
 
  /* Large Devices, Wide Screens */
