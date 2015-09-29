@@ -20,7 +20,45 @@
 	.jumbotron .main {
 		top: 180px;
 	}
+	.pricing .pricingtable {
+		width: 30%;
+		height: 350px;
+	}
+	.pricing .pricingtable .top {
+		height: 50px;
+	}
+	.pricing .pricingtable .top h3 {
+		line-height: 50px;
+		font-size: 20px;
+	}
+	.pricing .pricingtable .features h4 {
+		font-size: 48px;
+		margin: 0;
+	}
+	.pricing .pricingtable .features h4 sup {
+		font-size: 28px;
+	}
+	.pricing .pricingtable .features h4 sub {
+		font-size: 20px;
+	}
+	.pricing .pricingtable .features hr {
+		margin: 5px 0;
+	}
+	.pricing .pricingtable .features ul {
+		margin-bottom: 10px;
+	}
+	.pricing .pricingtable .features ul li {
+		font-size: 12px;
+	}
+	.pricing .pricingtable .features a {
+		height: 40px;
+		line-height: 40px;
+	}
+	.pricing .pricingtable.gold {
+		width: 30%;
+	}
 }
+	
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	section {
@@ -89,6 +127,7 @@
 		text-align: center;
 		height: 480px;
 	}
+
 	/*Disable Animation on Mobile Devices*/
 	.animated {
 		/*CSS transitions*/
@@ -149,6 +188,43 @@
 	.work #mixworks .mix .item_wrp h4{
 		font-size: 10px;
 		line-height: 1em;
+	}
+		.pricing .pricingtable {
+		width: 30%;
+		height: 350px;
+	}
+	.pricing .pricingtable .top {
+		height: 50px;
+	}
+	.pricing .pricingtable .top h3 {
+		line-height: 50px;
+		font-size: 16px;
+	}
+	.pricing .pricingtable .features h4 {
+		font-size: 36px;
+		margin: 0;
+	}
+	.pricing .pricingtable .features h4 sup {
+		font-size: 20px;
+	}
+	.pricing .pricingtable .features h4 sub {
+		font-size: 16px;
+	}
+	.pricing .pricingtable .features hr {
+		margin: 5px 0;
+	}
+	.pricing .pricingtable .features ul {
+		margin-bottom: 5px;
+	}
+	.pricing .pricingtable .features ul li {
+		font-size: 10px;
+	}
+	.pricing .pricingtable .features a {
+		height: 30px;
+		line-height: 30px;
+	}
+	.pricing .pricingtable.gold {
+		width: 35%;
 	}
 }
 
