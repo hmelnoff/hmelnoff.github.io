@@ -383,6 +383,7 @@ section
 			border-radius: 5px
 			box-shadow: 0 5px 0 #ccc
 			color: #333
+			cursor: pointer
 			i
 				float: left
 				font-size: 40px
@@ -438,6 +439,67 @@ section
 			img
 				width: 100%
 				height: auto
+.work
+	ul.control
+		list-style-type: none
+		text-align: center
+		margin-bottom: 60px
+		li
+			display: inline-block
+			cursor: pointer
+			padding: 8px 12px
+			border: 1px solid #ccc
+			border-radius: 5px
+			&:hover, &.active
+				background-color: rgba(0,0,0,0.1)
+	#mixworks
+		.mix
+			padding: 0
+			margin: 0
+			display: none
+			position: relative
+			&:hover > .item_wrp
+				opacity: 1
+			img
+				width: 100%
+			.item_wrp
+				transition: opacity 0.3s ease
+				opacity: 0
+				position: absolute
+				top: 0
+				width: 100%
+				height: 100%
+				background-color: rgba(255,204,51,0.8)
+				text-align: center
+				border: 10px solid rgba(255,204,51,0.5)
+				padding: 20%
+				ul
+					list-style-type: none
+					padding: 0
+					margin: 15px 0
+					li
+						display: inline-block
+						a
+							display: block
+							width: 30px
+							height: 30px
+							color: #fff
+							border: 1px solid #fff
+							border-radius: 50%
+							line-height: 30px
+							&:hover
+								color: #333
+								border-color: #333
+				h4
+					text-transform: uppercase
+					font-size: 14px
+					margin: 0
+					padding: 0
+					color: #333
+				p
+					font-family: "LatoItalic", sans-serif
+					color: #996600
+					margin: 0
 .process
 	.process_wrp
 		background-color: #f3f3f3
@@ -673,6 +735,9 @@ section
 			padding: 0
 			font-family: "LatoBold", sans-serif
 			font-size: 18px
+			a
+				text-decoration: none
+				color: #333
 	form
 		
 		input

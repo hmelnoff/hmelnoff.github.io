@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+	$('#mixworks').mixItUp();
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
 		ga("send", "event", "goal", "goal");
