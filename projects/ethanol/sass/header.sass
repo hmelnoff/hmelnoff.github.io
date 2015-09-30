@@ -1,0 +1,92 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "LatoRregular", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	-webkit-font-smoothing: antialised
+	overflow-x: hidden
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+header
+	padding: 35px 0
+.logo
+	font-family: "CenturyGothicRegular", sans-serif
+	font-size: 35px
+	color: #666666
+.nav
+	list-style-type: none
+	padding: 0 10px
+	margin: 0
+	float: right
+	li
+		display: inline-block
+		padding: 10px 0
+		margin-left: 35px
+		border-bottom: 5px solid transparent
+		&:hover
+			border-bottom: 5px solid #ffca26
+			transition: border-bottom 0.5s ease
+		&:first-child
+			margin-left: 0
+		a
+			color: #333333
+			text-transform: uppercase
+			font-family: "LatoBold", sans-serif
+			&:hover, &:focus
+				text-decoration: none
+.jumbotron
+	background: url("../ethanol/img/main.jpg") center center no-repeat
+	background-size: cover
+	height: 790px
+	.main
+		position: relative
+		top: 260px
+		text-align: center
+		h1
+			font-family: "LatoBold", sans-serif
+			font-weight: bold
+			font-size: 40px
+			text-transform: uppercase
+			color: #ffcc33
+			margin: 0
+			padding: 0
+			margin-bottom: 40px
+		p
+			font-family: "LatoRegular", sans-serif
+			font-size: 22px
+			color: #fff
+			margin-bottom: 135px
+		a
+			font-size: 22px
+			text-transform: uppercase
+			color: #fff
+			padding: 25px 25px
+			background-color: rgba(0,0,0,0.2)
+			&:hover, &:focus
+				text-decoration: none
+				border-bottom: 5px solid #ffcc33
+				background-color: rgba(0,0,0,0.6)
+				transition: background-color 0.5s ease
+.blok
+	padding: 100px 20px 140px
+	background-color: #ffcc33
+	text-align: center
+	.logo
+		color: #fff
+		margin-bottom: 	55px
+	p
+		font-size: 22px
+		color: #fff
+		max-width: 700px
+		margin: 0 auto
