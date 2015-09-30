@@ -1,28 +1,4 @@
-html.js .loader {
-  background: none repeat scroll 0 0 #ffffff;
-  bottom: 0;
-  height: 100%;
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 100%;
-  z-index: 9999; }
-  html.js .loader .loader_inner {
-    background-image: url("../img/preloader.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #fff;
-    height: 60px;
-    width: 60px;
-    margin-top: -30px;
-    margin-left: -30px;
-    left: 50%;
-    top: 50%;
-    position: absolute; }
-
-body {
+/*body {
   font-family: "LatoRregular", sans-serif;
   font-weight: normal;
   font-size: 14px;
@@ -117,7 +93,7 @@ header {
     font-size: 22px;
     color: #fff;
     max-width: 700px;
-    margin: 0 auto; }
+    margin: 0 auto; }*/
 
 section {
   padding: 155px 0 25px; }
