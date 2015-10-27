@@ -3,4 +3,13 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
-/projects/gulp-test/
+/projects/gulp-test/bower_components/
+/projects/gulp-test/src/
+/projects/gulp-test/bower.json
+/projects/gulp-test/gulpfile.js
+/projects/gulp-test/package.json
+/projects/bazinger/bower_components/
+/projects/bazinger/src/
+/projects/bazinger/bower.json
+/projects/bazinger/gulpfile.js
+/projects/bazinger/package.json
