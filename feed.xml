@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Павел Хмельнов</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>https://github.com/hmelnoff/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 16 Mar 2016 12:39:06 +0500</pubDate>
+    <lastBuildDate>Wed, 16 Mar 2016 12:39:06 +0500</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+
+      <item>
+        <title>Project 1</title>
+        <description>Используется адаптивная сетка Bootstrap, JQuery, Animate.css, Magnific Popup, Parallax, PageScroll2Id, Bootstrap-validate.</description>
+        <pubDate>Fri, 18 Jul 2014 00:00:00 +0600</pubDate>
+        <link>https://github.com/hmelnoff/sites/2014/07/18/project-1/</link>
+        <guid isPermaLink="true">https://github.com/hmelnoff/sites/2014/07/18/project-1/</guid>
+
+
+        <category>sites</category>
+
+      </item>
+
+      <item>
+        <title>Project 2</title>
+        <description>Используется адаптивная сетка Bootstrap, JQuery, MixitUp. &lt;a href=&quot;http://www.vectorarea.com/free-ethanol-psd-website-template&quot;&gt;Ссылка на PSD-файл&lt;/a&gt;</description>
+        <pubDate>Thu, 17 Jul 2014 00:00:00 +0600</pubDate>
+        <link>https://github.com/hmelnoff/sites/2014/07/17/project-2/</link>
+        <guid isPermaLink="true">https://github.com/hmelnoff/sites/2014/07/17/project-2/</guid>
+
+
+        <category>sites</category>
+
+      </item>
+
+      <item>
+        <title>Project 3</title>
+        <description>В данной работе используется шаблонизатор для языка программирования Python, Jinja. Представлена работа с api Yandex.Translate и сервис по заказу корпоративных обедов.</description>
+        <pubDate>Wed, 16 Jul 2014 00:00:00 +0600</pubDate>
+        <link>https://github.com/hmelnoff/sites/2014/07/16/project-3/</link>
+        <guid isPermaLink="true">https://github.com/hmelnoff/sites/2014/07/16/project-3/</guid>
+
+
+        <category>sites</category>
+
+      </item>
+
+      <item>
+        <title>Project 4</title>
+        <description>Проект собирается с помощью менеджера задач Gulp, испольщуется адаптивная сетка Bootstrap. &lt;a href=&quot;https://www.behance.net/gallery/Bazinger-Landing-Page-Free-PSD/13582743&quot;&gt;Ссылка на PSD-файл&lt;/a&gt;</description>
+        <pubDate>Tue, 15 Jul 2014 00:00:00 +0600</pubDate>
+        <link>https://github.com/hmelnoff/sites/2014/07/15/project-4/</link>
+        <guid isPermaLink="true">https://github.com/hmelnoff/sites/2014/07/15/project-4/</guid>
+
+
+        <category>sites</category>
+
+      </item>
+
+      <item>
+        <title>Project 5</title>
+        <description>Альтернативный вариант сайта &lt;a href=&quot;http://www.uraltep.ru&quot;&gt;ЗАО ПИЦ УралТЭП.&lt;/a&gt;  Проект на основе CMS Joomla.</description>
+        <pubDate>Mon, 14 Jul 2014 00:00:00 +0600</pubDate>
+        <link>https://github.com/hmelnoff/sites/2014/07/14/project-5/</link>
+        <guid isPermaLink="true">https://github.com/hmelnoff/sites/2014/07/14/project-5/</guid>
+
+
+        <category>sites</category>
+
+      </item>
+
+  </channel>
+</rss>
